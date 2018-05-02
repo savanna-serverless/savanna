@@ -1,0 +1,20 @@
+[AWS]
+ami = ami-b7fde6cc
+region = us-east-1
+zone = us-east-1e
+spot_price = 1.0
+aws_key = f99vm
+aws_key_file = ~/id_rsa
+instance_type = r4.large
+disk_size = 80
+placement_group = None
+
+[Cluster]
+cluster_name = savanna
+num_workers = 1
+
+
+[Dev]
+custom_vpc = False
+mount_nfs = False
+
